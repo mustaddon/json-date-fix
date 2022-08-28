@@ -7,7 +7,7 @@ import 'json-date-fix' // need once at the root of your app
 // serialization fix: preserve timezone information
 console.log(JSON.stringify({ date: new Date(2023, 5, 7) }));
 
-// deserialization fix: replace date-string to date-object
+// deserialization fix: change date-string to date-object
 console.log(JSON.parse('{"date":"2023-06-07T00:00:00.000+03:00"}'));
 
 
