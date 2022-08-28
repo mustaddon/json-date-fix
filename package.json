@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "name": "json-date-fix",
+	"description": "",
+  "keywords": [ "json", "date", "parse", "stringify", "deserialize", "serialize" ],
+  "author": "Leonid Salavatov <mustaddon@gmail.com>",
+  "license": "MIT",
+  "main": "./index.js",
+  "files": [ "index.js", "README.md", "LICENSE" ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustaddon/json-date-fix"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
