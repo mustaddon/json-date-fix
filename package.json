@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "json-date-fix",
-	"description": "",
+	"description": "JSON serialization/deserialization fix for Date objects",
   "keywords": [ "json", "date", "parse", "stringify", "deserialize", "serialize" ],
   "author": "Leonid Salavatov <mustaddon@gmail.com>",
   "license": "MIT",
