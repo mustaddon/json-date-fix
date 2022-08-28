@@ -1,4 +1,4 @@
-// deserialization fix: replace date-string to date-object
+// deserialization fix: change date-string to date-object
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[.Z:+\-\d]*?$/;
 const dotnetDatePattern = /^\/Date\((\d+)([+\-\d]*)\)\/$/;
 const jsonParseOrigin = JSON.parse;
