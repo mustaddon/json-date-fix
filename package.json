@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "json-date-fix",
 	"description": "JSON serialization/deserialization fix for Date objects",
   "keywords": [ "json", "date", "parse", "stringify", "deserialize", "serialize" ],
