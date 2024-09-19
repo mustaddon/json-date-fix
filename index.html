@@ -3,8 +3,12 @@
 <head></head>
 <body>
 	<script type="module">
-		
-		import './index.js';
+		import jsonDateFix from './index.js';
+
+		jsonDateFix({  
+			dateonly: true,
+			dotnet: true,
+		});
 
 		// serialization fix: preserve timezone information
 		console.log(JSON.stringify({ date: new Date(2023, 5, 7) }));

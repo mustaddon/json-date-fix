@@ -1,18 +1,31 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.5",
   "name": "json-date-fix",
-	"description": "JSON serialization/deserialization fix for Date objects",
-  "keywords": [ "json", "date", "parse", "stringify", "deserialize", "serialize" ],
+  "description": "JSON serialization/deserialization fix for Date objects",
+  "keywords": [
+    "json",
+    "date",
+    "dateonly",
+    "parse",
+    "stringify",
+    "deserialize",
+    "serialize"
+  ],
   "author": "Leonid Salavatov <mustaddon@gmail.com>",
   "license": "MIT",
   "main": "./index.js",
-  "files": [ "index.js", "README.md", "LICENSE" ],
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mustaddon/json-date-fix"
+    "url": "git+https://github.com/mustaddon/json-date-fix.git"
   },
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "deploy": "npm publish --access public"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
